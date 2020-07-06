@@ -1,0 +1,31 @@
+{
+  "StagingData"	:
+  [
+    {
+      "url" : "https://www.qa.jpay.com/",
+      "inmateID"   : "357001",
+      "password"   : "Jpay2020#",
+      "lookFullname" : "Release May",
+      "lookAccountNumber" : "13209650",
+      "lookFirstName" : "Release",
+      "lookLastName" : "May",
+      "lookEmailAddress" : "jpayqa2019@gmail.com",
+      "lookPhoneNumber" : "3055910795",
+      "lookCellPhone" : "9545910795",
+      "lookCity" : "Miramar",
+      "lookState" : "MA",
+      "lookZipCode" : "33025",
+      "halfAccount" : "halfaccount_test@gmail.com",
+      "lookTransferID": "45064550",
+      "lookPaymentRefNum": "84071618415330957",
+      "lookBatchID" : "5875013",
+      "lookBatchName" : "00442",
+      "senderFirstName": "Release",
+      "senderLastName": "May",
+      "inmateFirstName": "Alex",
+      "inmateLastName": "Gonzalez",
+      "inmateID" : "357001"
+
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JPay_Tests_Version_0001]">
+  <listeners>
+    <listener class-name="jpay.utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="JPay Facility Tests(failed)">
+    <parameter name="facilityURL" value="https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f"/>
+    <parameter name="userPassword" value="123456"/>
+    <parameter name="pinCode" value="1234"/>
+    <parameter name="userName" value="jpay_jpayvantiv"/>
+    <parameter name="wwwURL" value="https://www.qa.jpay.com/"/>
+    <classes>
+      <class name="jpay.testcases.www.HomePage">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="validateFooterLinks" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- jpay.testcases.www.HomePage -->
+    </classes>
+  </test> <!-- JPay Facility Tests(failed) -->
+</suite> <!-- Failed suite [JPay_Tests_Version_0001] -->

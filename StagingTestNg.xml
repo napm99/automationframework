@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="JPay_Tests_Version_0001">
+
+    <listeners>
+        <listener class-name="jpay.utilities.ExtentReport"/>
+    </listeners>
+
+    <test name="JPay staging Tests">
+
+        <parameter name="stagingURL" value="https://staging.qa.jpay.com/login.aspx?ReturnUrl=%2f"></parameter>
+
+
+        <classes>
+            <class name="jpay.testcases.staging.Transfers"></class>
+            <class name="jpay.testcases.staging.Reports"></class>
+            <class name="jpay.testcases.staging.MoneyOrder"></class>
+            <class name="jpay.testcases.staging.Administration"></class>
+        </classes>
+
+    </test>
+</suite>

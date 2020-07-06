@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JPay_Tests_Version_0001" duration-ms="135904" started-at="2020-03-12T13:35:22Z" finished-at="2020-03-12T13:37:38Z">
+    <groups>
+    </groups>
+    <test name="JPay Facility Tests" duration-ms="135904" started-at="2020-03-12T13:35:22Z" finished-at="2020-03-12T13:37:38Z">
+      <class name="jpay.testcases.facility.LoginPage">
+        <test-method status="PASS" signature="forgotPassword(java.lang.String)[pri:1, instance:jpay.testcases.facility.LoginPage@4f933fd1]" name="forgotPassword" duration-ms="7911" started-at="2020-03-12T13:35:22Z" finished-at="2020-03-12T13:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="forgotUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:jpay.testcases.facility.LoginPage@4f933fd1]" name="forgotUserName" duration-ms="792" started-at="2020-03-12T13:35:30Z" finished-at="2020-03-12T13:35:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jpay_newyork]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!qaqa9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotUserName -->
+        <test-method status="PASS" signature="userLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:jpay.testcases.facility.LoginPage@4f933fd1]" name="userLogin" duration-ms="1672" started-at="2020-03-12T13:35:31Z" finished-at="2020-03-12T13:35:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jpay_newyork]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!qaqa9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:jpay.testcases.facility.LoginPage@4f933fd1]" name="quitBrowser" is-config="true" duration-ms="562" started-at="2020-03-12T13:35:33Z" finished-at="2020-03-12T13:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- jpay.testcases.facility.LoginPage -->
+      <class name="jpay.testcases.facility.MoneyPage">
+        <test-method status="PASS" signature="goToMoneyPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="goToMoneyPage" duration-ms="8256" started-at="2020-03-12T13:35:33Z" finished-at="2020-03-12T13:35:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jpay_newyork]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[!qaqa9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMoneyPage -->
+        <test-method status="PASS" signature="checkADepositHistoryBatch()[pri:5, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="checkADepositHistoryBatch" duration-ms="1408" started-at="2020-03-12T13:35:41Z" finished-at="2020-03-12T13:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkADepositHistoryBatch -->
+        <test-method status="PASS" signature="downloadAReport()[pri:6, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="downloadAReport" duration-ms="1056" started-at="2020-03-12T13:35:43Z" finished-at="2020-03-12T13:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAReport -->
+        <test-method status="PASS" signature="downloadAReceipt()[pri:7, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="downloadAReceipt" duration-ms="12275" started-at="2020-03-12T13:35:44Z" finished-at="2020-03-12T13:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAReceipt -->
+        <test-method status="PASS" signature="checkBookingKioskID()[pri:8, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="checkBookingKioskID" duration-ms="1633" started-at="2020-03-12T13:35:56Z" finished-at="2020-03-12T13:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBookingKioskID -->
+        <test-method status="PASS" signature="checkBookingKioskIDBatch()[pri:9, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="checkBookingKioskIDBatch" duration-ms="882" started-at="2020-03-12T13:35:58Z" finished-at="2020-03-12T13:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBookingKioskIDBatch -->
+        <test-method status="PASS" signature="exportBookingKioskBatchExcel()[pri:10, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="exportBookingKioskBatchExcel" duration-ms="803" started-at="2020-03-12T13:35:59Z" finished-at="2020-03-12T13:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportBookingKioskBatchExcel -->
+        <test-method status="PASS" signature="checkKioskActivityID()[pri:11, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="checkKioskActivityID" duration-ms="1227" started-at="2020-03-12T13:35:59Z" finished-at="2020-03-12T13:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkKioskActivityID -->
+        <test-method status="PASS" signature="checkKioskActivityBatchID()[pri:12, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="checkKioskActivityBatchID" duration-ms="137" started-at="2020-03-12T13:36:01Z" finished-at="2020-03-12T13:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkKioskActivityBatchID -->
+        <test-method status="PASS" signature="exportKioskActivityBatchExcel()[pri:13, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="exportKioskActivityBatchExcel" duration-ms="673" started-at="2020-03-12T13:36:01Z" finished-at="2020-03-12T13:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportKioskActivityBatchExcel -->
+        <test-method status="PASS" signature="showRecapReport()[pri:14, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="showRecapReport" duration-ms="14782" started-at="2020-03-12T13:36:01Z" finished-at="2020-03-12T13:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showRecapReport -->
+        <test-method status="PASS" signature="searchByInmateID(java.lang.String)[pri:15, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByInmateID" duration-ms="7074" started-at="2020-03-12T13:36:16Z" finished-at="2020-03-12T13:36:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1131900252]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByInmateID -->
+        <test-method status="PASS" signature="searchByInmateFullName(java.lang.String)[pri:16, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByInmateFullName" duration-ms="6704" started-at="2020-03-12T13:36:23Z" finished-at="2020-03-12T13:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taliby Kaba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByInmateFullName -->
+        <test-method status="PASS" signature="searchByCustomerFirstName(java.lang.String)[pri:17, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByCustomerFirstName" duration-ms="6777" started-at="2020-03-12T13:36:30Z" finished-at="2020-03-12T13:36:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CONFIRM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCustomerFirstName -->
+        <test-method status="PASS" signature="searchByCustomerLastName(java.lang.String)[pri:18, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByCustomerLastName" duration-ms="6725" started-at="2020-03-12T13:36:37Z" finished-at="2020-03-12T13:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CANCEL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCustomerLastName -->
+        <test-method status="PASS" signature="searchByCustomerFullName(java.lang.String)[pri:19, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByCustomerFullName" duration-ms="6821" started-at="2020-03-12T13:36:44Z" finished-at="2020-03-12T13:36:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CONFIRM CANCEL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCustomerFullName -->
+        <test-method status="PASS" signature="searchByCustomerAccountID(java.lang.String)[pri:20, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByCustomerAccountID" duration-ms="6675" started-at="2020-03-12T13:36:50Z" finished-at="2020-03-12T13:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13211824]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCustomerAccountID -->
+        <test-method status="PASS" signature="searchByBatchNumber(java.lang.String)[pri:21, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByBatchNumber" duration-ms="6879" started-at="2020-03-12T13:36:57Z" finished-at="2020-03-12T13:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NY694130]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByBatchNumber -->
+        <test-method status="PASS" signature="searchByReferenceNumber(java.lang.String)[pri:22, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByReferenceNumber" duration-ms="6845" started-at="2020-03-12T13:37:04Z" finished-at="2020-03-12T13:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NYC06_M20200226101329]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByReferenceNumber -->
+        <test-method status="PASS" signature="searchByTransactionNumber(java.lang.String)[pri:23, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="searchByTransactionNumber" duration-ms="6702" started-at="2020-03-12T13:37:11Z" finished-at="2020-03-12T13:37:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45058125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByTransactionNumber -->
+        <test-method status="PASS" signature="userLogoutFacility()[pri:24, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="userLogoutFacility" duration-ms="157" started-at="2020-03-12T13:37:17Z" finished-at="2020-03-12T13:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogoutFacility -->
+        <test-method status="PASS" signature="generateMonthlyReport(java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="generateMonthlyReport" duration-ms="7527" started-at="2020-03-12T13:37:18Z" finished-at="2020-03-12T13:37:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jpay_TAFT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[!qaqa9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateMonthlyReport -->
+        <test-method status="PASS" signature="generateWeeklyDepositReport()[pri:26, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="generateWeeklyDepositReport" duration-ms="12027" started-at="2020-03-12T13:37:25Z" finished-at="2020-03-12T13:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateWeeklyDepositReport -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:jpay.testcases.facility.MoneyPage@548a9f61]" name="quitBrowser" is-config="true" duration-ms="585" started-at="2020-03-12T13:37:37Z" finished-at="2020-03-12T13:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- jpay.testcases.facility.MoneyPage -->
+    </test> <!-- JPay Facility Tests -->
+  </suite> <!-- JPay_Tests_Version_0001 -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="JPay_Tests_Version_0002">
+
+	<listeners>
+		<listener class-name="jpay.utilities.ExtentReport"/>
+	</listeners>
+
+	<test name="desktest">
+
+		<parameter name="facilityURL" value="https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f"></parameter>
+		<parameter name="userName" value="Jpay_florida"></parameter>
+		<parameter name="pinCode" value="1234"></parameter>
+		<parameter name="userPassword" value="!qaqa9"></parameter>
+		<parameter name="inmateID" value="1131900252"></parameter>
+		<parameter name="inmateFullName" value="Taliby Kaba"></parameter>
+		<parameter name="customerFirstName" value="CONFIRM"></parameter>
+		<parameter name="customerLastName" value="CANCEL"></parameter>
+		<parameter name="customerFullName" value="CONFIRM CANCEL"></parameter>
+		<parameter name="accountID" value="13211824"></parameter>
+		<parameter name="batchNumber" value="NY694130"></parameter>
+		<parameter name="referenceNumber" value="NYC06_M20200226101329"></parameter>
+		<parameter name="transactionNumber" value="45058125"></parameter>
+		<parameter name="userFacility2" value="jpay_TAFT"></parameter>
+
+		<classes>
+			<class name="jpay.testcases.facility.ReleaseCards"></class>
+		</classes>
+	</test>
+</suite>

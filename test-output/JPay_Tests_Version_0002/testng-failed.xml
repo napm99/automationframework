@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JPay_Tests_Version_0002]">
+  <listeners>
+    <listener class-name="jpay.utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="desktest(failed)">
+    <parameter name="facilityURL" value="https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f"/>
+    <parameter name="wwwURL" value="https://www.qa.jpay.com"/>
+    <classes>
+      <class name="jpay.baseclasses.DesktopAppEvents">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testWeatherApp"/>
+        </methods>
+      </class> <!-- jpay.baseclasses.DesktopAppEvents -->
+    </classes>
+  </test> <!-- desktest(failed) -->
+</suite> <!-- Failed suite [JPay_Tests_Version_0002] -->

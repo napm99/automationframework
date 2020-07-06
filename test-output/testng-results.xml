@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JPay_Tests_Version_0001" duration-ms="83147" started-at="2020-01-23T16:03:44Z" finished-at="2020-01-23T16:05:07Z">
+    <groups>
+    </groups>
+    <test name="JPay Facility Tests" duration-ms="83147" started-at="2020-01-23T16:03:44Z" finished-at="2020-01-23T16:05:07Z">
+      <class name="jpay.testcases.facility.LoginJSON">
+        <test-method status="PASS" signature="userLogin(jpay.utilities.TestData)[pri:21, instance:jpay.testcases.facility.LoginJSON@544fe44c]" name="userLogin" duration-ms="6728" started-at="2020-01-23T16:04:53Z" data-provider="testData" finished-at="2020-01-23T16:05:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [Username = jpay_jpayvantiv, PinCode = 1234, Password = 123456]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="userLogin(jpay.utilities.TestData)[pri:21, instance:jpay.testcases.facility.LoginJSON@544fe44c]" name="userLogin" duration-ms="6680" started-at="2020-01-23T16:05:00Z" data-provider="testData" finished-at="2020-01-23T16:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [Username = jpay_NILBERTTEST, PinCode = 1234, Password = %amfm4]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:jpay.testcases.facility.LoginJSON@544fe44c]" name="quitBrowser" is-config="true" duration-ms="0" started-at="2020-01-23T16:05:07Z" finished-at="2020-01-23T16:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- jpay.testcases.facility.LoginJSON -->
+      <class name="jpay.testcases.facility.MonthlyTotalsReportPage">
+        <test-method status="PASS" signature="validateMonthlyTotalsReportPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:jpay.testcases.facility.MonthlyTotalsReportPage@3c0f93f1]" name="validateMonthlyTotalsReportPage" duration-ms="6946" started-at="2020-01-23T16:04:06Z" finished-at="2020-01-23T16:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jpay_jpayvantiv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMonthlyTotalsReportPage -->
+        <test-method status="PASS" signature="generateMonthlyReport()[pri:14, instance:jpay.testcases.facility.MonthlyTotalsReportPage@3c0f93f1]" name="generateMonthlyReport" duration-ms="3077" started-at="2020-01-23T16:04:13Z" finished-at="2020-01-23T16:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateMonthlyReport -->
+        <test-method status="PASS" signature="downloadMonthlyReport()[pri:15, instance:jpay.testcases.facility.MonthlyTotalsReportPage@3c0f93f1]" name="downloadMonthlyReport" duration-ms="164" started-at="2020-01-23T16:04:16Z" finished-at="2020-01-23T16:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadMonthlyReport -->
+        <test-method status="PASS" signature="validateWeeklyDepositReport()[pri:16, instance:jpay.testcases.facility.MonthlyTotalsReportPage@3c0f93f1]" name="validateWeeklyDepositReport" duration-ms="526" started-at="2020-01-23T16:04:16Z" finished-at="2020-01-23T16:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWeeklyDepositReport -->
+        <test-method status="PASS" signature="viewWeeklyDepositReport()[pri:17, instance:jpay.testcases.facility.MonthlyTotalsReportPage@3c0f93f1]" name="viewWeeklyDepositReport" duration-ms="5566" started-at="2020-01-23T16:04:16Z" finished-at="2020-01-23T16:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewWeeklyDepositReport -->
+        <test-method status="PASS" signature="downWeeklyDepositReport()[pri:18, instance:jpay.testcases.facility.MonthlyTotalsReportPage@3c0f93f1]" name="downWeeklyDepositReport" duration-ms="215" started-at="2020-01-23T16:04:22Z" finished-at="2020-01-23T16:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downWeeklyDepositReport -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:jpay.testcases.facility.MonthlyTotalsReportPage@3c0f93f1]" name="quitBrowser" is-config="true" duration-ms="542" started-at="2020-01-23T16:04:22Z" finished-at="2020-01-23T16:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- jpay.testcases.facility.MonthlyTotalsReportPage -->
+      <class name="jpay.testcases.facility.LoginPage">
+        <test-method status="PASS" signature="loginPageValidation(java.lang.String)[pri:1, instance:jpay.testcases.facility.LoginPage@60c6f5b]" name="loginPageValidation" duration-ms="6716" started-at="2020-01-23T16:03:44Z" finished-at="2020-01-23T16:03:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageValidation -->
+        <test-method status="PASS" signature="emptyUsername(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:jpay.testcases.facility.LoginPage@60c6f5b]" name="emptyUsername" duration-ms="662" started-at="2020-01-23T16:03:50Z" finished-at="2020-01-23T16:03:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jpay_jpayvantiv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method status="PASS" signature="forgotPassword(java.lang.String)[pri:3, instance:jpay.testcases.facility.LoginPage@60c6f5b]" name="forgotPassword" duration-ms="561" started-at="2020-01-23T16:03:51Z" finished-at="2020-01-23T16:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method status="PASS" signature="returnToLogin()[pri:4, instance:jpay.testcases.facility.LoginPage@60c6f5b]" name="returnToLogin" duration-ms="97" started-at="2020-01-23T16:03:52Z" finished-at="2020-01-23T16:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToLogin -->
+        <test-method status="PASS" signature="forgotUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:jpay.testcases.facility.LoginPage@60c6f5b]" name="forgotUserName" duration-ms="604" started-at="2020-01-23T16:03:52Z" finished-at="2020-01-23T16:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jpay_jpayvantiv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotUserName -->
+        <test-method status="PASS" signature="userLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:jpay.testcases.facility.LoginPage@60c6f5b]" name="userLogin" duration-ms="901" started-at="2020-01-23T16:03:52Z" finished-at="2020-01-23T16:03:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jpay_jpayvantiv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:jpay.testcases.facility.LoginPage@60c6f5b]" name="quitBrowser" is-config="true" duration-ms="541" started-at="2020-01-23T16:03:53Z" finished-at="2020-01-23T16:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- jpay.testcases.facility.LoginPage -->
+      <class name="jpay.testcases.www.HomePage">
+        <test-method status="PASS" signature="validateHomePage(java.lang.String)[pri:19, instance:jpay.testcases.www.HomePage@31dc339b]" name="validateHomePage" duration-ms="6479" started-at="2020-01-23T16:04:23Z" finished-at="2020-01-23T16:04:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.qa.jpay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="validateFooterLinks(java.lang.String)[pri:20, instance:jpay.testcases.www.HomePage@31dc339b]" name="validateFooterLinks" duration-ms="23542" started-at="2020-01-23T16:04:29Z" finished-at="2020-01-23T16:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.qa.jpay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFooterLinks -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:jpay.testcases.www.HomePage@31dc339b]" name="quitBrowser" is-config="true" duration-ms="588" started-at="2020-01-23T16:04:53Z" finished-at="2020-01-23T16:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- jpay.testcases.www.HomePage -->
+      <class name="jpay.testcases.facility.MoneyPage">
+        <test-method status="PASS" signature="moneyPageValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:jpay.testcases.facility.MoneyPage@2038ae61]" name="moneyPageValidation" duration-ms="6458" started-at="2020-01-23T16:03:54Z" finished-at="2020-01-23T16:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jpay_jpayvantiv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moneyPageValidation -->
+        <test-method status="PASS" signature="despositHistory()[pri:8, instance:jpay.testcases.facility.MoneyPage@2038ae61]" name="despositHistory" duration-ms="47" started-at="2020-01-23T16:04:00Z" finished-at="2020-01-23T16:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despositHistory -->
+        <test-method status="PASS" signature="checkBatch()[pri:9, instance:jpay.testcases.facility.MoneyPage@2038ae61]" name="checkBatch" duration-ms="475" started-at="2020-01-23T16:04:00Z" finished-at="2020-01-23T16:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBatch -->
+        <test-method status="PASS" signature="checkReport()[pri:10, instance:jpay.testcases.facility.MoneyPage@2038ae61]" name="checkReport" duration-ms="352" started-at="2020-01-23T16:04:01Z" finished-at="2020-01-23T16:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReport -->
+        <test-method status="PASS" signature="checkExport()[pri:11, instance:jpay.testcases.facility.MoneyPage@2038ae61]" name="checkExport" duration-ms="367" started-at="2020-01-23T16:04:01Z" finished-at="2020-01-23T16:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExport -->
+        <test-method status="PASS" signature="checkReceipts()[pri:12, instance:jpay.testcases.facility.MoneyPage@2038ae61]" name="checkReceipts" duration-ms="3548" started-at="2020-01-23T16:04:02Z" finished-at="2020-01-23T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReceipts -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:jpay.testcases.facility.MoneyPage@2038ae61]" name="quitBrowser" is-config="true" duration-ms="541" started-at="2020-01-23T16:04:05Z" finished-at="2020-01-23T16:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- jpay.testcases.facility.MoneyPage -->
+    </test> <!-- JPay Facility Tests -->
+  </suite> <!-- JPay_Tests_Version_0001 -->
+</testng-results>

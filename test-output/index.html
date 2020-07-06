@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-JPay_Tests_Version_0001">
+              <span class="suite-name border-passed">JPay_Tests_Version_0001</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-JPay_Tests_Version_0001">
+                    <span>C:\Users\niperez\eclipse-workspace\automation\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-JPay_Tests_Version_0001">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-JPay_Tests_Version_0001">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-JPay_Tests_Version_0001">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-JPay_Tests_Version_0001">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-JPay_Tests_Version_0001">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-JPay_Tests_Version_0001">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-JPay_Tests_Version_0001" class="hide-methods passed suite-JPay_Tests_Version_0001"> (hide)</a> <!-- hide-methods passed suite-JPay_Tests_Version_0001 -->
+                      <a href="#" panel-name="suite-JPay_Tests_Version_0001" class="show-methods passed suite-JPay_Tests_Version_0001"> (show)</a> <!-- show-methods passed suite-JPay_Tests_Version_0001 -->
+                    </span>
+                    <div class="method-list-content passed suite-JPay_Tests_Version_0001">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MoneyPage" hash-for-method="checkBatch">checkBatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MoneyPage" hash-for-method="checkExport">checkExport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MoneyPage" hash-for-method="checkReceipts">checkReceipts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MoneyPage" hash-for-method="checkReport">checkReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MoneyPage" hash-for-method="despositHistory">despositHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MonthlyTotalsReportPage" hash-for-method="downWeeklyDepositReport">downWeeklyDepositReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MonthlyTotalsReportPage" hash-for-method="downloadMonthlyReport">downloadMonthlyReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginPage" hash-for-method="emptyUsername(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">emptyUsername(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginPage" hash-for-method="forgotPassword(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)">forgotPassword(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginPage" hash-for-method="forgotUserName(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">forgotUserName(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MonthlyTotalsReportPage" hash-for-method="generateMonthlyReport">generateMonthlyReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginPage" hash-for-method="loginPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)">loginPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MoneyPage" hash-for-method="moneyPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">moneyPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginPage" hash-for-method="returnToLogin">returnToLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginPage" hash-for-method="userLogin(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">userLogin(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginJSON" hash-for-method="userLogin(TestData [Username = jpay_jpayvantiv, PinCode = 1234, Password = 123456])">userLogin(TestData [Username = jpay_jpayvantiv, PinCode = 1234, Password = 123456])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.LoginJSON" hash-for-method="userLogin(TestData [Username = jpay_NILBERTTEST, PinCode = 1234, Password = %amfm4])">userLogin(TestData [Username = jpay_NILBERTTEST, PinCode = 1234, Password = %amfm4])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.www.HomePage" hash-for-method="validateFooterLinks(https://www.qa.jpay.com/)">validateFooterLinks(https://www.qa.jpay.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.www.HomePage" hash-for-method="validateHomePage(https://www.qa.jpay.com/)">validateHomePage(https://www.qa.jpay.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MonthlyTotalsReportPage" hash-for-method="validateMonthlyTotalsReportPage(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">validateMonthlyTotalsReportPage(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MonthlyTotalsReportPage" hash-for-method="validateWeeklyDepositReport">validateWeeklyDepositReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JPay_Tests_Version_0001" title="jpay.testcases.facility.MonthlyTotalsReportPage" hash-for-method="viewWeeklyDepositReport">viewWeeklyDepositReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-JPay_Tests_Version_0001 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-JPay_Tests_Version_0001" class="panel JPay_Tests_Version_0001">
+          <div class="suite-JPay_Tests_Version_0001-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">jpay.testcases.www.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFooterLinks(https://www.qa.jpay.com/)">
+                  </a> <!-- validateFooterLinks(https://www.qa.jpay.com/) -->
+                  <span class="method-name">validateFooterLinks</span>
+                  <span class="parameters">(https://www.qa.jpay.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePage(https://www.qa.jpay.com/)">
+                  </a> <!-- validateHomePage(https://www.qa.jpay.com/) -->
+                  <span class="method-name">validateHomePage</span>
+                  <span class="parameters">(https://www.qa.jpay.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPay_Tests_Version_0001-class-passed -->
+          <div class="suite-JPay_Tests_Version_0001-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">jpay.testcases.facility.MoneyPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBatch">
+                  </a> <!-- checkBatch -->
+                  <span class="method-name">checkBatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExport">
+                  </a> <!-- checkExport -->
+                  <span class="method-name">checkExport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkReceipts">
+                  </a> <!-- checkReceipts -->
+                  <span class="method-name">checkReceipts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkReport">
+                  </a> <!-- checkReport -->
+                  <span class="method-name">checkReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="despositHistory">
+                  </a> <!-- despositHistory -->
+                  <span class="method-name">despositHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moneyPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">
+                  </a> <!-- moneyPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456) -->
+                  <span class="method-name">moneyPageValidation</span>
+                  <span class="parameters">(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPay_Tests_Version_0001-class-passed -->
+          <div class="suite-JPay_Tests_Version_0001-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">jpay.testcases.facility.LoginJSON</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogin(TestData [Username = jpay_jpayvantiv, PinCode = 1234, Password = 123456])">
+                  </a> <!-- userLogin(TestData [Username = jpay_jpayvantiv, PinCode = 1234, Password = 123456]) -->
+                  <span class="method-name">userLogin</span>
+                  <span class="parameters">(TestData [Username = jpay_jpayvantiv, PinCode = 1234, Password = 123456])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogin(TestData [Username = jpay_NILBERTTEST, PinCode = 1234, Password = %amfm4])">
+                  </a> <!-- userLogin(TestData [Username = jpay_NILBERTTEST, PinCode = 1234, Password = %amfm4]) -->
+                  <span class="method-name">userLogin</span>
+                  <span class="parameters">(TestData [Username = jpay_NILBERTTEST, PinCode = 1234, Password = %amfm4])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPay_Tests_Version_0001-class-passed -->
+          <div class="suite-JPay_Tests_Version_0001-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">jpay.testcases.facility.LoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyUsername(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">
+                  </a> <!-- emptyUsername(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456) -->
+                  <span class="method-name">emptyUsername</span>
+                  <span class="parameters">(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)">
+                  </a> <!-- forgotPassword(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f) -->
+                  <span class="method-name">forgotPassword</span>
+                  <span class="parameters">(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotUserName(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">
+                  </a> <!-- forgotUserName(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456) -->
+                  <span class="method-name">forgotUserName</span>
+                  <span class="parameters">(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)">
+                  </a> <!-- loginPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f) -->
+                  <span class="method-name">loginPageValidation</span>
+                  <span class="parameters">(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="returnToLogin">
+                  </a> <!-- returnToLogin -->
+                  <span class="method-name">returnToLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogin(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">
+                  </a> <!-- userLogin(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456) -->
+                  <span class="method-name">userLogin</span>
+                  <span class="parameters">(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPay_Tests_Version_0001-class-passed -->
+          <div class="suite-JPay_Tests_Version_0001-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">jpay.testcases.facility.MonthlyTotalsReportPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downWeeklyDepositReport">
+                  </a> <!-- downWeeklyDepositReport -->
+                  <span class="method-name">downWeeklyDepositReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadMonthlyReport">
+                  </a> <!-- downloadMonthlyReport -->
+                  <span class="method-name">downloadMonthlyReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="generateMonthlyReport">
+                  </a> <!-- generateMonthlyReport -->
+                  <span class="method-name">generateMonthlyReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMonthlyTotalsReportPage(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)">
+                  </a> <!-- validateMonthlyTotalsReportPage(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456) -->
+                  <span class="method-name">validateMonthlyTotalsReportPage</span>
+                  <span class="parameters">(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateWeeklyDepositReport">
+                  </a> <!-- validateWeeklyDepositReport -->
+                  <span class="method-name">validateWeeklyDepositReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewWeeklyDepositReport">
+                  </a> <!-- viewWeeklyDepositReport -->
+                  <span class="method-name">viewWeeklyDepositReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JPay_Tests_Version_0001-class-passed -->
+        </div> <!-- panel JPay_Tests_Version_0001 -->
+        <div panel-name="test-xml-JPay_Tests_Version_0001" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\niperez\eclipse-workspace\automation\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;JPay_Tests_Version_0001&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;jpay.utilities.ExtentReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;JPay Facility Tests&quot;&gt;
+    &lt;parameter name=&quot;facilityURL&quot; value=&quot;https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f&quot;/&gt;
+    &lt;parameter name=&quot;userPassword&quot; value=&quot;123456&quot;/&gt;
+    &lt;parameter name=&quot;pinCode&quot; value=&quot;1234&quot;/&gt;
+    &lt;parameter name=&quot;userName&quot; value=&quot;jpay_jpayvantiv&quot;/&gt;
+    &lt;parameter name=&quot;wwwURL&quot; value=&quot;https://www.qa.jpay.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;jpay.testcases.facility.LoginPage&quot;/&gt;
+      &lt;class name=&quot;jpay.testcases.facility.MoneyPage&quot;/&gt;
+      &lt;class name=&quot;jpay.testcases.facility.MonthlyTotalsReportPage&quot;/&gt;
+      &lt;class name=&quot;jpay.testcases.www.HomePage&quot;/&gt;
+      &lt;class name=&quot;jpay.testcases.facility.LoginJSON&quot;/&gt;
+      &lt;class name=&quot;jpay.testcases.www.HomePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- JPay Facility Tests --&gt;
+&lt;/suite&gt; &lt;!-- JPay_Tests_Version_0001 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-JPay_Tests_Version_0001" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for JPay_Tests_Version_0001</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">JPay Facility Tests (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-JPay_Tests_Version_0001" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for JPay_Tests_Version_0001</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-JPay_Tests_Version_0001" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for JPay_Tests_Version_0001</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_JPay_Tests_Version_0001');
+function tableData_JPay_Tests_Version_0001() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateFooterLinks')
+data.setCell(0, 2, 'jpay.testcases.www.HomePage')
+data.setCell(0, 3, 23542);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateMonthlyTotalsReportPage')
+data.setCell(1, 2, 'jpay.testcases.facility.MonthlyTotalsReportPage')
+data.setCell(1, 3, 6946);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userLogin')
+data.setCell(2, 2, 'jpay.testcases.facility.LoginJSON')
+data.setCell(2, 3, 6728);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginPageValidation')
+data.setCell(3, 2, 'jpay.testcases.facility.LoginPage')
+data.setCell(3, 3, 6716);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userLogin')
+data.setCell(4, 2, 'jpay.testcases.facility.LoginJSON')
+data.setCell(4, 3, 6680);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateHomePage')
+data.setCell(5, 2, 'jpay.testcases.www.HomePage')
+data.setCell(5, 3, 6479);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'moneyPageValidation')
+data.setCell(6, 2, 'jpay.testcases.facility.MoneyPage')
+data.setCell(6, 3, 6458);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'viewWeeklyDepositReport')
+data.setCell(7, 2, 'jpay.testcases.facility.MonthlyTotalsReportPage')
+data.setCell(7, 3, 5566);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkReceipts')
+data.setCell(8, 2, 'jpay.testcases.facility.MoneyPage')
+data.setCell(8, 3, 3548);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'generateMonthlyReport')
+data.setCell(9, 2, 'jpay.testcases.facility.MonthlyTotalsReportPage')
+data.setCell(9, 3, 3077);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'userLogin')
+data.setCell(10, 2, 'jpay.testcases.facility.LoginPage')
+data.setCell(10, 3, 901);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'emptyUsername')
+data.setCell(11, 2, 'jpay.testcases.facility.LoginPage')
+data.setCell(11, 3, 662);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'forgotUserName')
+data.setCell(12, 2, 'jpay.testcases.facility.LoginPage')
+data.setCell(12, 3, 604);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'forgotPassword')
+data.setCell(13, 2, 'jpay.testcases.facility.LoginPage')
+data.setCell(13, 3, 561);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateWeeklyDepositReport')
+data.setCell(14, 2, 'jpay.testcases.facility.MonthlyTotalsReportPage')
+data.setCell(14, 3, 526);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkBatch')
+data.setCell(15, 2, 'jpay.testcases.facility.MoneyPage')
+data.setCell(15, 3, 475);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkExport')
+data.setCell(16, 2, 'jpay.testcases.facility.MoneyPage')
+data.setCell(16, 3, 367);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkReport')
+data.setCell(17, 2, 'jpay.testcases.facility.MoneyPage')
+data.setCell(17, 3, 352);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'downWeeklyDepositReport')
+data.setCell(18, 2, 'jpay.testcases.facility.MonthlyTotalsReportPage')
+data.setCell(18, 3, 215);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'downloadMonthlyReport')
+data.setCell(19, 2, 'jpay.testcases.facility.MonthlyTotalsReportPage')
+data.setCell(19, 3, 164);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'returnToLogin')
+data.setCell(20, 2, 'jpay.testcases.facility.LoginPage')
+data.setCell(20, 3, 97);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'despositHistory')
+data.setCell(21, 2, 'jpay.testcases.facility.MoneyPage')
+data.setCell(21, 3, 47);
+window.suiteTableData['JPay_Tests_Version_0001']= { tableData: data, tableDiv: 'times-div-JPay_Tests_Version_0001'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-JPay_Tests_Version_0001">
+              </div> <!-- times-div-JPay_Tests_Version_0001 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-JPay_Tests_Version_0001" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for JPay_Tests_Version_0001</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-JPay_Tests_Version_0001" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-JPay_Tests_Version_0001" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">jpay.testcases.facility.LoginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emptyUsername(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                <span class="method-start">6725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f)</span>
+                <span class="method-start">7388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">returnToLogin</span>
+                <span class="method-start">7950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forgotUserName(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                <span class="method-start">8048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userLogin(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                <span class="method-start">8653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">9555 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">jpay.testcases.facility.MoneyPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">moneyPageValidation(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                <span class="method-start">10096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">despositHistory</span>
+                <span class="method-start">16555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkBatch</span>
+                <span class="method-start">16604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkReport</span>
+                <span class="method-start">17080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkExport</span>
+                <span class="method-start">17433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkReceipts</span>
+                <span class="method-start">17801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">21350 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">jpay.testcases.facility.MonthlyTotalsReportPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateMonthlyTotalsReportPage(https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, jpay_jpayvantiv, 1234, 123456)</span>
+                <span class="method-start">21892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">generateMonthlyReport</span>
+                <span class="method-start">28839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">downloadMonthlyReport</span>
+                <span class="method-start">31916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateWeeklyDepositReport</span>
+                <span class="method-start">32081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewWeeklyDepositReport</span>
+                <span class="method-start">32608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">downWeeklyDepositReport</span>
+                <span class="method-start">38175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">38391 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">jpay.testcases.www.HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateHomePage(https://www.qa.jpay.com/)</span>
+                <span class="method-start">38933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateFooterLinks(https://www.qa.jpay.com/)</span>
+                <span class="method-start">45412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">68954 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">jpay.testcases.facility.LoginJSON</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userLogin(TestData [Username = jpay_jpayvantiv, PinCode = 1234, Password = 123456])</span>
+                <span class="method-start">69586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userLogin(TestData [Username = jpay_NILBERTTEST, PinCode = 1234, Password = %amfm4])</span>
+                <span class="method-start">76315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">82996 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

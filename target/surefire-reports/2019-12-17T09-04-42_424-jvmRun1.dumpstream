@@ -1,0 +1,381 @@
+# Created at 2019-12-17T09:06:22.960
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-17T09:06:42.080
+Unexpected IOException with stream:  INFO [TestNG-test=JPay Facility Tests-1] (DriverEvents.java:201)- -- Screenshot taken - Test failed ! --
+
+
+# Created at 2019-12-17T09:06:42.086
+Unexpected IOException: 8,1,jpay.testcases.facility.MoneyPage,checkBatch(jpay.testcases.facility.MoneyPage),null,Expected condition failed: waiting for element to be clickable: By.xpath: //table[@id='ctl00_MainContent_ViewDepositGridStates']/descendant::a[1] (tried for 25 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for element to be clickable: By.xpath: //table[@id='ctl00_MainContent_ViewDepositGridStates']/descendant::a[1] (tried for 25 second(s) with 500 milliseconds interval),MoneyPage.checkBatch:41->DriverEvents.click:168 \00BB Timeout Expected condition f...,org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //table[@id='ctl00_MainContent_ViewDepositGridStates']/descendant::a[1] (tried for 25 second(s) with 500 milliseconds interval)\000A\0009at jpay.testcases.facility.MoneyPage.checkBatch(MoneyPage.java:41)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//table[@id='ctl00_MainContent_ViewDepositGridStates']/descendant::a[1]"}\000A  (Session info: headless chrome=79.0.3945.79)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MIRITDLTNILM1'\002C ip: '10.0.75.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.79\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cniperez\005CAppData\005CLo...}\002C goog:chromeOptions: {debuggerAddress: localhost:54765}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: ac6bcf536cb37f5f501a9e08462c75ee\000A*** Element info: {Using=xpath\002C value=//table[@id='ctl00_MainContent_ViewDepositGridStates']/descendant::a[1]}\000A\0009at jpay.testcases.facility.MoneyPage.checkBatch(MoneyPage.java:41)\000A
+
+
+# Created at 2019-12-17T09:06:42.091
+Unexpected IOException: 5,1,jpay.testcases.facility.MoneyPage,checkReport(jpay.testcases.facility.MoneyPage),jpay.testcases.facility.MoneyPage,null,null
+
+
+# Created at 2019-12-17T09:07:07.645
+Unexpected IOException with stream: Exception in thread "TestNG-test=JPay Facility Tests-1" 
+
+# Created at 2019-12-17T09:07:07.653
+Unexpected IOException: 5,1,jpay.testcases.facility.MoneyPage,checkExport(jpay.testcases.facility.MoneyPage),jpay.testcases.facility.MoneyPage,null,null
+
+
+# Created at 2019-12-17T09:07:07.659
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5631
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIRITDLTNILM1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+
+# Created at 2019-12-17T09:07:07.669
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.674
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+
+# Created at 2019-12-17T09:07:07.679
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.684
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-12-17T09:07:07.688
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.693
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created at 2019-12-17T09:07:07.698
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.703
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+
+# Created at 2019-12-17T09:07:07.707
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.712
+Unexpected IOException with stream: 	at jpay.baseclasses.DriverEvents.captureScreen(DriverEvents.java:198)
+
+# Created at 2019-12-17T09:07:07.717
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.724
+Unexpected IOException with stream: 	at jpay.utilities.ExtentReport.onTestFailure(ExtentReport.java:67)
+
+# Created at 2019-12-17T09:07:07.730
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.735
+Unexpected IOException with stream: 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+
+# Created at 2019-12-17T09:07:07.740
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.745
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+
+# Created at 2019-12-17T09:07:07.750
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.755
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1042)
+
+# Created at 2019-12-17T09:07:07.759
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.764
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2019-12-17T09:07:07.769
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.773
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2019-12-17T09:07:07.778
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.782
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+# Created at 2019-12-17T09:07:07.787
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.791
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+# Created at 2019-12-17T09:07:07.796
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.801
+Unexpected IOException with stream: 	at java.lang.Thread.run(Thread.java:748)
+
+# Created at 2019-12-17T09:07:07.806
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.811
+Unexpected IOException with stream: Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5631
+
+# Created at 2019-12-17T09:07:07.815
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.820
+Unexpected IOException with stream: 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+
+# Created at 2019-12-17T09:07:07.824
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.830
+Unexpected IOException with stream: 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+
+# Created at 2019-12-17T09:07:07.834
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.839
+Unexpected IOException with stream: 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+
+# Created at 2019-12-17T09:07:07.844
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.848
+Unexpected IOException with stream: 	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+
+# Created at 2019-12-17T09:07:07.853
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.858
+Unexpected IOException with stream: 	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+
+# Created at 2019-12-17T09:07:07.863
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.869
+Unexpected IOException with stream: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+
+# Created at 2019-12-17T09:07:07.874
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.879
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+
+# Created at 2019-12-17T09:07:07.884
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.891
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+
+# Created at 2019-12-17T09:07:07.897
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.902
+Unexpected IOException with stream: 	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+
+# Created at 2019-12-17T09:07:07.908
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.914
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+
+# Created at 2019-12-17T09:07:07.919
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.924
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+
+# Created at 2019-12-17T09:07:07.928
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.933
+Unexpected IOException with stream: 	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+
+# Created at 2019-12-17T09:07:07.938
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.942
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+
+# Created at 2019-12-17T09:07:07.947
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.951
+Unexpected IOException with stream: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+
+# Created at 2019-12-17T09:07:07.956
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.960
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+
+# Created at 2019-12-17T09:07:07.965
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.969
+Unexpected IOException with stream: 	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+
+# Created at 2019-12-17T09:07:07.973
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.977
+Unexpected IOException with stream: 	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+
+# Created at 2019-12-17T09:07:07.982
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.986
+Unexpected IOException with stream: 	at okhttp3.RealCall.execute(RealCall.java:77)
+
+# Created at 2019-12-17T09:07:07.991
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:07.996
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+
+# Created at 2019-12-17T09:07:08.001
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.007
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+
+# Created at 2019-12-17T09:07:08.013
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.018
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-12-17T09:07:08.024
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.030
+Unexpected IOException with stream: 	... 13 more
+
+# Created at 2019-12-17T09:07:08.035
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.041
+Unexpected IOException with stream: Caused by: java.net.ConnectException: Connection refused: connect
+
+# Created at 2019-12-17T09:07:08.047
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.054
+Unexpected IOException with stream: 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+
+# Created at 2019-12-17T09:07:08.060
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.067
+Unexpected IOException with stream: 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+
+# Created at 2019-12-17T09:07:08.072
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.077
+Unexpected IOException with stream: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+
+# Created at 2019-12-17T09:07:08.082
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.087
+Unexpected IOException with stream: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+
+# Created at 2019-12-17T09:07:08.092
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.097
+Unexpected IOException with stream: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+
+# Created at 2019-12-17T09:07:08.102
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.107
+Unexpected IOException with stream: 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+
+# Created at 2019-12-17T09:07:08.112
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.117
+Unexpected IOException with stream: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+
+# Created at 2019-12-17T09:07:08.122
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.128
+Unexpected IOException with stream: 	at java.net.Socket.connect(Socket.java:589)
+
+# Created at 2019-12-17T09:07:08.133
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.138
+Unexpected IOException with stream: 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+
+# Created at 2019-12-17T09:07:08.145
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.150
+Unexpected IOException with stream: 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+
+# Created at 2019-12-17T09:07:08.155
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-17T09:07:08.160
+Unexpected IOException with stream: 	... 33 more
+
+# Created at 2019-12-17T09:07:08.165
+Unexpected IOException with stream: 
+
+

@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  JPay Facility Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>JPay Facility Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 12 09:35:22 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>135 seconds (135904 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.checkADepositHistoryBatch()'><b>checkADepositHistoryBatch</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>1</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.checkBookingKioskID()'><b>checkBookingKioskID</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>1</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.checkBookingKioskIDBatch()'><b>checkBookingKioskIDBatch</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>0</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.checkKioskActivityBatchID()'><b>checkKioskActivityBatchID</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>0</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.checkKioskActivityID()'><b>checkKioskActivityID</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>1</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.downloadAReceipt()'><b>downloadAReceipt</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>12</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.downloadAReport()'><b>downloadAReport</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>1</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.exportBookingKioskBatchExcel()'><b>exportBookingKioskBatchExcel</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>0</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.exportKioskActivityBatchExcel()'><b>exportKioskActivityBatchExcel</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>0</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.LoginPage.forgotPassword()'><b>forgotPassword</b><br>Test class: jpay.testcases.facility.LoginPage<br>Parameters: https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f</td>
+<td></td>
+<td>7</td>
+<td>jpay.testcases.facility.LoginPage@4f933fd1</td></tr>
+<tr>
+<td title='jpay.testcases.facility.LoginPage.forgotUserName()'><b>forgotUserName</b><br>Test class: jpay.testcases.facility.LoginPage<br>Parameters: https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, Jpay_newyork, 1234, !qaqa9</td>
+<td></td>
+<td>0</td>
+<td>jpay.testcases.facility.LoginPage@4f933fd1</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.generateMonthlyReport()'><b>generateMonthlyReport</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: jpay_TAFT, 1234, !qaqa9</td>
+<td></td>
+<td>7</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.generateWeeklyDepositReport()'><b>generateWeeklyDepositReport</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>12</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.goToMoneyPage()'><b>goToMoneyPage</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, Jpay_newyork, 1234, !qaqa9</td>
+<td></td>
+<td>8</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByBatchNumber()'><b>searchByBatchNumber</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: NY694130</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByCustomerAccountID()'><b>searchByCustomerAccountID</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: 13211824</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByCustomerFirstName()'><b>searchByCustomerFirstName</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: CONFIRM</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByCustomerFullName()'><b>searchByCustomerFullName</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: CONFIRM CANCEL</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByCustomerLastName()'><b>searchByCustomerLastName</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: CANCEL</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByInmateFullName()'><b>searchByInmateFullName</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: Taliby Kaba</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByInmateID()'><b>searchByInmateID</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: 1131900252</td>
+<td></td>
+<td>7</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByReferenceNumber()'><b>searchByReferenceNumber</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: NYC06_M20200226101329</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.searchByTransactionNumber()'><b>searchByTransactionNumber</b><br>Test class: jpay.testcases.facility.MoneyPage<br>Parameters: 45058125</td>
+<td></td>
+<td>6</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.showRecapReport()'><b>showRecapReport</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>14</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+<tr>
+<td title='jpay.testcases.facility.LoginPage.userLogin()'><b>userLogin</b><br>Test class: jpay.testcases.facility.LoginPage<br>Parameters: https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f, Jpay_newyork, 1234, !qaqa9</td>
+<td></td>
+<td>1</td>
+<td>jpay.testcases.facility.LoginPage@4f933fd1</td></tr>
+<tr>
+<td title='jpay.testcases.facility.MoneyPage.userLogoutFacility()'><b>userLogoutFacility</b><br>Test class: jpay.testcases.facility.MoneyPage</td>
+<td></td>
+<td>0</td>
+<td>jpay.testcases.facility.MoneyPage@548a9f61</td></tr>
+</table><p>
+</body>
+</html>

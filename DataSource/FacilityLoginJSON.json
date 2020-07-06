@@ -1,0 +1,18 @@
+{
+  "TestData"	:
+  [
+    {
+      "browser"    : "chrome",
+      "username"   : "jpay_jpayvantiv",
+      "pincode"    : "1234",
+      "password"   : "123456"
+
+    },
+    {
+      "browser"    : "firefox",
+      "username"   : "jpay_NILBERTTEST",
+      "pincode"    : "1234",
+      "password"   : "%amfm4"
+    }
+  ]
+}
