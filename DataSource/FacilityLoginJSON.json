@@ -3,16 +3,16 @@
   [
     {
       "browser"    : "chrome",
-      "username"   : "jpay_jpayvantiv",
-      "pincode"    : "1234",
-      "password"   : "123456"
+      "username"   : "",
+      "pincode"    : "",
+      "password"   : ""
 
     },
     {
       "browser"    : "firefox",
-      "username"   : "jpay_NILBERTTEST",
-      "pincode"    : "1234",
-      "password"   : "%amfm4"
+      "username"   : "",
+      "pincode"    : "",
+      "password"   : ""
     }
   ]
 }

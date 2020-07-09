@@ -46,7 +46,7 @@ public class DriverEvents{
 	public static WebDriverWait wait;
 	public static String emailGenerated;
 	public static String phoneNumberGenerated;
-	public String wwwPassword = "Jpay2020#";
+	public String wwwPassword = "userpassword";
 	public static String ssnNumberGenerated;
 	public static String webElementValue;
 	public static Logger logger;

@@ -9,21 +9,21 @@
 
 	<test name="JPay Facility Tests">
 
-		<parameter name="facilityURL" value="https://facility.qa.jpay.com/login.aspx?ReturnUrl=%2f"></parameter>
-		<parameter name="userName" value="Jpay_newyork"></parameter>
-		<parameter name="pinCode" value="1234"></parameter>
-		<parameter name="userPassword" value="!QAQA9"></parameter>
-		<parameter name="inmateID" value="1131900252"></parameter>
-		<parameter name="inmateFullName" value="Taliby Kaba"></parameter>
-		<parameter name="customerFirstName" value="CONFIRM"></parameter>
-		<parameter name="customerLastName" value="CANCEL"></parameter>
-		<parameter name="customerFullName" value="CONFIRM CANCEL"></parameter>
-		<parameter name="accountID" value="13211824"></parameter>
-		<parameter name="batchNumber" value="NY694130"></parameter>
-		<parameter name="referenceNumber" value="NYC06_M20200226101329"></parameter>
-		<parameter name="transactionNumber" value="45058125"></parameter>
-		<parameter name="userFacility2" value="jpay_TAFT"></parameter>
-		<parameter name="facilityPassword2" value="!qaqa9"></parameter>
+		<parameter name="facilityURL" value=""></parameter>
+		<parameter name="userName" value=""></parameter>
+		<parameter name="pinCode" value=""></parameter>
+		<parameter name="userPassword" value=""></parameter>
+		<parameter name="inmateID" value=""></parameter>
+		<parameter name="inmateFullName" value=""></parameter>
+		<parameter name="customerFirstName" value=""></parameter>
+		<parameter name="customerLastName" value=""></parameter>
+		<parameter name="customerFullName" value=""></parameter>
+		<parameter name="accountID" value=""></parameter>
+		<parameter name="batchNumber" value=""></parameter>
+		<parameter name="referenceNumber" value=""></parameter>
+		<parameter name="transactionNumber" value=""></parameter>
+		<parameter name="userFacility2" value=""></parameter>
+		<parameter name="facilityPassword2" value=""></parameter>
 		<!--<parameter name="userPassword" value="%amfm4"></parameter>
 		<parameter name="userPassword" value="#!Holidays20!9!!"></parameter>-->
 
